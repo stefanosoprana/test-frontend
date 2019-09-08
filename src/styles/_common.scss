@@ -1,0 +1,44 @@
+body {
+	font-family: 'Gotham';
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	position: relative;
+}
+
+h2 {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+p {
+	margin: 0;
+}
+
+input {
+	margin:0;
+	border:0;
+	padding:0;
+	outline: none;
+}
+
+textarea {
+  outline: none;
+	resize: none;
+}

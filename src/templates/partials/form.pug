@@ -1,0 +1,30 @@
+mixin form
+  .form
+    .form__left
+      .form__left__contacts
+        h2 contact 
+          br 
+          | us.
+        span Playground srl
+        br
+        span Via G. Mazzini 3/C,
+        br
+        span Cerbusco sul Naviglio (Milano)
+        br
+        span -
+        br
+        span T +39 0240706003
+    .form__right      
+      form.box(name='invio_dati' action='#' method='post')
+        ul
+          li.box__person
+            input(type='text', placeholder='name')
+            input(type='text', placeholder='last name')
+          li.box__email
+            input(type='email', placeholder='email', required)
+          li.box__textarea
+            textarea(name='name', rows='10', cols='80', placeholder='message', maxlength="400")
+          li.box__button 
+            button(type='submit')
+              | SEND
+              i.fas.fa-chevron-right

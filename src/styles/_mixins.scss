@@ -1,0 +1,54 @@
+// *** FLEX ***
+
+@mixin flex-start-center {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@mixin flex-end-center {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+// *** COMPONENTS ***
+
+@mixin main-h2 {
+    margin-top: 0;
+    font-size: 75px;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+@mixin button-black {
+  background-color: black;
+  padding: 10px 15px;
+  border-color: lightgrey;
+  a {
+    color: lightgrey;
+    letter-spacing: 3px;
+    font-size: 12px;
+  }
+}
+
+@mixin button-white {
+  background-color: white;
+  padding: 10px 15px;
+  border-color: black;
+  a {
+    color: black;
+    letter-spacing: 3px;
+    font-size: 12px;
+  }
+}
+
+@mixin item-form {
+  border: 2px solid white;
+  color: white;
+  background: black;
+}

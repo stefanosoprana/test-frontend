@@ -1,0 +1,71 @@
+
+#weare {
+	background-image: url('../assets/images/banner-we-are.jpg');
+}
+
+#wedo {
+	background-image: url('../assets/images/banner-we-do.jpg');
+}
+
+#careers {
+	background-image: url('../assets/images/banner-careers.jpg');
+}
+
+.banner-black, .banner-white {
+	width: 100%;
+	height: 600px;
+}
+
+.banner-black {
+	&__right {
+		@include flex-start-center
+		padding-left: 30px;
+		float: right;
+		width: 40%;
+		height: 100%;
+		background-color: black;
+		&__text {
+			width: 210px;
+			margin-left: 65px;
+			h2 {
+				@include main-h2;
+				color: white;
+			}
+			p {
+				color: lightgrey;
+				margin: 25px 0;
+			}
+			button {
+				@include button-black
+			}
+		}
+	}
+}
+
+
+.banner-white {
+	&__left {
+		@include flex-end-center
+		text-align: right;
+		padding-left: 30px;
+		float: left;
+		width: 40%;
+		height: 100%;
+		background-color: white;
+		&__text {
+			width: 210px;
+			margin-right: 65px;
+			h2 {
+				@include main-h2;
+				color: black
+			}
+			p {
+				color: black;
+				margin: 25px 0;
+			}
+			button {
+				@include button-white;
+			}
+		}
+	}
+}

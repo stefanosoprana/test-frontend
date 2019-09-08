@@ -1,0 +1,32 @@
+.navbar {
+	height: 100px;
+	width: 80%;
+	padding: 0 10%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	&__left {
+		@include flex-start-center
+		float: left;
+		height: 100%;
+		width: 50%;
+	}
+	&__right {
+		float: right;
+		height: 100%;
+		width: 50%;
+		ul {
+			height: 100%;
+			@include flex-start-center
+			justify-content: flex-end;
+			li {
+				margin: 0 30px;
+				a {
+					color: white;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+}

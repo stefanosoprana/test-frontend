@@ -1,0 +1,27 @@
+// *** COMMON ***
+
+@import "common";
+
+// *** GLIDEJS ***
+
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+
+// *** FONTS ***
+
+@import "fonts";
+@import "node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+
+// *** MIXIN ***
+
+@import "mixins";
+
+// *** IMPORTS ***
+
+@import "partials/navbar";
+@import "partials/slider";
+@import "partials/cards";
+@import "partials/banner";
+@import "partials/tab";
+@import "partials/form";
+@import "partials/footer";

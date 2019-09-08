@@ -1,0 +1,34 @@
+mixin slider
+  .slider
+    .glide
+      .glide__track(data-glide-el='track')
+        ul.glide__slides
+          li.glide__slide.glide__box
+            img(src='../assets/images/slide-hello.jpg')
+            .glide__box__text
+              h1 lorem ipsum.
+              p
+                | Consectetur adipiscing elit. Nulla condimentum tortor sem, in semper nisl bibendum eu.
+          li.glide__slide.glide__box
+            .glide__box__image
+              img(src='../assets/images/slide-circle.jpg')
+            .glide__box__text
+              h1 lorem ipsum.
+              p
+                | Consectetur adipiscing elit. Nulla condimentum tortor sem, in semper nisl bibendum eu.
+          li.glide__slide.glide__box
+            .glide__box__image
+              img(src='../assets/images/slide-play.jpg')
+            .glide__box__text
+              h1 lorem ipsum.
+              p
+                | Consectetur adipiscing elit. Nulla condimentum tortor sem, in semper nisl bibendum eu.
+      .glide__arrows(data-glide-el='controls')
+        button.glide__arrow.glide__arrow--left(data-glide-dir='<') 
+          i.fas.fa-chevron-left
+        button.glide__arrow.glide__arrow--right(data-glide-dir='>')
+          i.fas.fa-chevron-right
+      .glide__bullets(data-glide-el='controls[nav]')
+        button.glide__bullet(data-glide-dir='=0')
+        button.glide__bullet(data-glide-dir='=1')
+        button.glide__bullet(data-glide-dir='=2')

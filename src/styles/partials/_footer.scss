@@ -1,0 +1,48 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-top: 1px solid grey;
+	height: 350px;
+	background: black;
+	&__logo {
+		@include flex-center;
+		width: 100%;
+	}
+	&__navbar {
+		width: 100%;
+		@include flex-center;
+		&__items {
+			width: 40%;
+			ul {
+				width: 100%;
+				display: flex;
+				justify-content: space-between;
+				li {
+					a {
+						text-decoration: none;
+						color: lightgrey;
+						letter-spacing: 1px;
+					}
+				}
+			}
+		}
+	}
+	&__social {
+		width: 100%;
+		@include flex-center;
+		&__icon {
+			width: 12%;
+			ul {
+				display: flex;
+				justify-content: space-between;
+				a {
+					i {
+						color: lightgrey;
+						font-size: 30px;
+					}
+				}
+			}
+		}
+	}
+}

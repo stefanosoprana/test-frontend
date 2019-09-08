@@ -1,0 +1,32 @@
+.slider {
+	.glide__box {
+		background-color: lightgrey;
+		position: relative;
+		&__text {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 1;
+			width: 250px;
+			text-align: left;
+			top: 30%;
+			left: 20%;
+			color: white;
+			h1 {
+				font-size: 60px;
+				margin-bottom: 30px;
+			}
+		}
+	}
+	.glide__arrow {
+		border: 0;
+	}
+	.glide__arrows {
+		border: 0;
+		button {
+			i {
+				font-size: 30px;
+			}
+		}
+	}
+}

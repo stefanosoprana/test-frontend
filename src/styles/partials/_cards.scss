@@ -1,0 +1,48 @@
+.cards {
+	height: 500px;
+	padding: 0 130px;
+	background: lightgrey;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.card {
+	height: 350px;
+	width: 350px;
+	&__top {
+		height: 25%;
+	}
+	&__middle {
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		padding: 45px;
+		min-height: 30%;
+		background: white;
+	}
+	&__bottom {
+		height: 15%;
+		width: 100%;
+		background: black;
+		text-align: center;
+		cursor: pointer;
+		a {
+			line-height: 52px;
+			font-weight: 200;
+			letter-spacing: 3px;
+		}
+	}
+}
+
+#play-harder {
+	background-image: url('../assets/images/card-play-harder.png');
+	background-position: -55px;
+}
+#simplicity {
+	background-image: url('../assets/images/card-simplicity.png');
+	background-position: -10px;
+}
+#innovation {
+	background-image: url('../assets/images/card-innovation.png');
+	background-position: -10px;
+}
