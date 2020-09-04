@@ -16,7 +16,7 @@
     "gulp-pug": "^4.0.1",
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.0.2",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.13.1"
   },
   "dependencies": {
     "@glidejs/glide": "^3.3.0",
